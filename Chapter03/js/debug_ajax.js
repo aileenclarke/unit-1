@@ -1,3 +1,5 @@
+//this goes below debugged code from last week
+
 function debugCallback(response){
 	document.querySelector("#mydiv").insertAdjacentHTML('beforeend', 'GeoJSON data: ' + JSON.stringify(mydata))
 };
